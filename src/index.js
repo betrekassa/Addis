@@ -26,7 +26,8 @@ app.use(trackRoutes);
 // db connection string 
 //const mongoUri = 'mongodb+srv://mussie_black:Mussie11%3F@cluster0.yxpwc.mongodb.net/<dbname>?retryWrites=true&w=majority';
 
-const mongoUri = 'mongodb://localhost:27017';
+//const mongoUri = 'mongodb://localhost:27017';
+const mongoUri = 'mongodb://172-31-10-157:27017';
 
 //Remove Depricated functions
 mongoose.set('useNewUrlParser', true);
